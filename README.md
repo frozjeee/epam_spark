@@ -4,7 +4,7 @@
 
 ### Launching an etl in docker container
 Clone project from GitHub:\
-`git clone https://github.com/frozjeee/MTS.git`
+`git clone https://github.com/frozjeee/epam_spark.git`
 
 Build docker container (On Windows ensure that End of line sequence is set to LF in entrypoint.sh file):\
 `docker build -t spark_etl .`
