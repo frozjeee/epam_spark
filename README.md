@@ -2,9 +2,13 @@
 
 ## Spark ETL process for restaurant weather
 
-### Launching an etl in docker container
+### Launching an ETL in docker container
 Clone project from GitHub:\
 `git clone https://github.com/frozjeee/epam_spark.git`
+
+Create .env file(you may not specify, it will work anyway):\
+`OPENCAGE_API_URL=https://api.opencagedata.com/geocode/v1`\
+`OPENCAGE_API_TOKEN={Token}`
 
 Build docker container (On Windows ensure that End of line sequence is set to LF in entrypoint.sh file):\
 `docker build -t spark_etl .`
